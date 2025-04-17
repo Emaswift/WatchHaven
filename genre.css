@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Jost;
+}
+
+.navbar {
+  background-color: #9a0b1e; 
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.navbar h1 {
+  color: white;
+  margin-right: 20px;
+  font-size: 50px;
+  margin-left: 5%;
+}
+
+.navbar .nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .nav-links a {
+  text-decoration: none;
+  color: white;
+  background-color: #6e0c14; 
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+  background-color: #ac4444; 
+}
+
+/* Genre Container */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+/* Genre Boxes */
+.genre-box {
+  width: 250px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.action { background-color: #007bff; } 
+.comedy { background-color: #28a745; }
+.horror { background-color: #dc3545; }
+.romance { background-color: #ffc107; color: rgb(255, 255, 255); }
+.fantasy { background-color: #17a2b8; } 
+.mystery { background-color: #343a40; } 

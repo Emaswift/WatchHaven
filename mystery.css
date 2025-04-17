@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Jost;
+  }
+  
+  .navbar {
+    background-color: #9a0b1e;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .navbar h1 {
+    color: white;
+    margin-right: 20px;
+    font-size: 50px;
+    margin-left: 5%;
+  }
+  
+  .navbar .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar .nav-links a {
+    text-decoration: none;
+    color: white;
+    background-color: #6e0c14; 
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar .nav-links a:hover {
+    background-color: #ac4444; 
+  }
